@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-# Minimal Cleaner v0.1 - BETA
+# Minni-cutter v0.1 - BETA
 # By Yigao Shao
 #
 # Usage: python mc.py [PATH]
