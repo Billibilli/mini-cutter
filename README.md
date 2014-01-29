@@ -1,3 +1,13 @@
+## Synopsis
+
+This is a tool to clean out some useless files in a web directory. 
+
+## Contributors
+
+Yigao Shao
+
+## License
+
 The MIT License (MIT)
 
 Copyright (c) 2014 Yigao Shao
