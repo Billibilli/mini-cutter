@@ -1,0 +1,31 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+import os,sys,re
+
+for root, dirs, files in os.walk("/var/log"):
+    print root
+    print dirs
+    print files
+
+digset={'php':phprule,'js':jsrule,'html':htmlrule,'htm':htmlrule}
+protectset=['sh','txt','lic']
+
+
+def main(argv):
+	treeroot=argv[0]
+	outputdir=argv[1]
+	print treeroot,outputdir
+	file=open(treeroot, 'r')
+	for root,dirs,files in os.walk('')
+		
+	for line in file:
+		for eachrule in phprule:
+			child=re.findall(eachrule,line)
+			if child:
+				print child 
+	file.close()
+
+if __name__ == "__main__":
+    main(sys.argv[1:])
+
